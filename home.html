@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="homeStyle.css">
+    <link rel="icon" type="image/ico" href="img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Gym</title>
+</head>
+<body>
+  <script src="js/script.js"></script>
+    <nav>
+        <ul class="sidebar">
+          <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+          <li><a href="membership.html">Membership</a></li>
+          <li><a href="#">Forum</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+        <ul>
+          <li><a href="home.html">
+            <img class="logo" src="img/Logo.svg" alt="logo">
+            Gubami Gym
+          </a></li>
+          <li class="hideOnMobile"><a href="#">Blog</a></li>
+          <li class="hideOnMobile"><a href="about.html">About</a></li>
+          <li class="hideOnMobile"><a href="login.html">Login</a></li>
+          <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+        </ul>
+      </nav>
+    <div class="hero-section">
+        <div class="container">
+          <h1>Welcome to Gubami Gym</h1>
+          <p>Your fitness journey begins here. Join a community that motivates, supports, and challenges you every day.</p>
+          <a href="membership.html" class="cta-button">Start Your Transformation</a>
+        </div>
+      </div>
+      
+      <section class="about-us">
+        <div class="container">
+          <h2>About Us</h2>
+          <p>At Gubami gym, we provide more than just a gym. We offer a fitness experience that is designed to help you succeed. Whether you're working towards losing weight, building muscle, or improving overall health, we have the tools, expertise, and support to guide you on every step of your journey.</p>
+          <p>Our gym is equipped with state-of-the-art facilities and a team of experienced trainers who are passionate about helping you reach your goals. Join us and become a part of a fitness community that cares about your success!</p>
+        </div>
+      </section>
+      
+      <section class="services">
+        <div class="container">
+          <h2>Our Services</h2>
+          <div class="service-item">
+            <h3>Personal Training</h3>
+            <p>Get individualized training from our certified trainers. Whether you're new to fitness or looking to level up, we'll create a personalized workout plan just for you!</p>
+          </div>
+          <div class="service-item">
+            <h3>Group Classes</h3>
+            <p>Join our fun and motivating group fitness classes. From HIIT to yoga, there's something for everyone. Come get fit with others who share your goals!</p>
+          </div>
+          <div class="service-item">
+            <h3>Nutrition Coaching</h3>
+            <p>Fuel your body right with expert nutrition advice. Our nutritionists will design a meal plan that complements your fitness goals and lifestyle.</p>
+          </div>
+        </div>
+      </section>
+      
+      <section class="testimonials">
+        <div class="container">
+          <h2>What Our Members Say</h2>
+          <div class="testimonial-item">
+            <p>"I've been a member of Gubami gym for over a year, and I’ve never felt better. The trainers are amazing, and the group classes are always fun and motivating!"</p>
+            <h4>- Sarah L., Member</h4>
+          </div>
+          <div class="testimonial-item">
+            <p>"Joining Gubami gym was the best decision I made for my health. The atmosphere is so welcoming, and I’m seeing real results!"</p>
+            <h4>- John M., Member</h4>
+          </div>
+          <div class="testimonial-item">
+            <p>"The personalized training plan helped me push through plateaus I had for years. The trainers really know their stuff!"</p>
+            <h4>- Emma W., Member</h4>
+          </div>
+        </div>
+      </section>
+      
+      <section class="membership" id="membership">
+        <div class="container">
+          <h2>Become a Member</h2>
+          <p>Ready to take the first step toward a healthier, stronger you? Join Gubami gym today and gain access to all our premium services, including 24/7 gym access, group classes, personal training, and more!</p>
+          <ul>
+            <li>Access to all gym equipment and facilities</li>
+            <li>Unlimited group fitness classes</li>
+            <li>Personalized workout plans</li>
+            <li>Exclusive member events and challenges</li>
+          </ul>
+          <a href="membership.html" class="cta-button">Join Now</a>
+        </div>
+      </section>
+      
+      <section class="contact">
+        <div class="container">
+          <h2>Contact Us</h2>
+          <p>Have questions? We're here to help! Get in touch with us to learn more about our services, memberships, and schedule a free consultation.</p>
+          <a href="mailto:info@GubamiGym.com" class="cta-button">Contact Us</a>
+        </div>
+      </section>
+      
+      
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Our gym</h4>
+                    <ul>
+                        <li><a href="rules.html">Gym rules</a></li>
+                        <li><a href="#">Gym safety</a></li>
+                        <li><a href="#">Fitness classes</a></li>
+                        <li><a href="#">Personal trainers</a></li>
+                        <li><a href="#">Gym opening times</a></li>
+                        <li><a href="#">Gym tour</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Help centre</a></li>
+                        <li><a href="#">Payment Options</a></li>
+                        <li><a href="#">Cancel membership</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Terms and Conditions of use</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                        <li><a href="#">Membership agreement</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+        <div class="footer-copy">
+            <p>Copyright &copy;2025 Designed by Artem Korol</p>
+        </div>
+
+    </footer>
+    
+</body>
+</html>

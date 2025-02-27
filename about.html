@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="aboutStyle.css">
+    <link rel="icon" type="image/ico" href="img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Gym</title>
+</head>
+<body>
+    <script src="js/script.js"></script>
+    <nav>
+        <ul class="sidebar">
+          <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+          <li><a href="membership.html">Membership</a></li>
+          <li><a href="#">Forum</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+        <ul>
+          <li><a href="home.html">
+            <img class="logo" src="img/Logo.svg" alt="logo">
+            Gubami Gym
+          </a></li>
+          <li class="hideOnMobile"><a href="#">Blog</a></li>
+          <li class="hideOnMobile"><a href="about.html">About</a></li>
+          <li class="hideOnMobile"><a href="login.html">Login</a></li>
+          <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+        </ul>
+      </nav>
+    <div class="page-header-bottom">
+        <img class="header-img" src="img/people_on_treadmils.jpeg" alt="People on treadmills">
+    </div>
+    <section id="about-us">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to <strong>Gubami Gym</strong>, where fitness is more than just a workout—it's a lifestyle. We are passionate about helping you achieve your fitness goals in a supportive, positive, and motivating environment. Whether you are just beginning your fitness journey or you’re a seasoned athlete, we are here to help you succeed.</p>
+    
+            <h3>Our Mission</h3>
+            <p>At <strong>Gubami Gym</strong>, our mission is to foster a community where everyone is encouraged to push themselves and break through their limits. We believe that fitness can transform lives—physically, mentally, and emotionally. We are committed to offering state-of-the-art equipment, expert training, and personalized support to ensure your success.</p>
+    
+            <h3>Our Story</h3>
+            <p>Founded in <strong>2012</strong>, <strong>Gubami Gym</strong> was born out of a desire to create a gym that feels like home. A place where everyone, from beginners to experienced athletes, can feel comfortable, challenged, and motivated. What started as a small gym in Dundee has grown into a hub for fitness enthusiasts of all ages and backgrounds. We believe in the power of community, and we strive to build relationships that go beyond just fitness.</p>
+    
+            <h3>Our Philosophy</h3>
+            <p>We believe that fitness is a lifelong journey. It's not just about looking good; it’s about feeling good, staying healthy, and pushing yourself to new heights. Our gym is designed to inspire and motivate you to take care of your body, mind, and spirit. We are committed to providing a holistic approach to fitness, combining physical training with mental wellness.</p>
+    
+            <h3>What We Offer</h3>
+            <ul>
+                <li><strong>Personal Training:</strong> One-on-one sessions with certified trainers who will guide you to achieve your specific goals.</li>
+                <li><strong>Group Fitness Classes:</strong> Join our vibrant community in a variety of classes like Zumba, HIIT, Spinning, and more.</li>
+                <li><strong>Strength & Conditioning:</strong> Build strength, endurance, and power with personalized programs tailored to your fitness level.</li>
+                <li><strong>Cardio & Endurance Training:</strong> Improve your cardiovascular health with our expert-designed endurance programs.</li>
+                <li><strong>Yoga & Wellness Programs:</strong> Find balance and flexibility through yoga, meditation, and recovery programs.</li>
+                <li><strong>Nutrition & Wellness Coaching:</strong> Our certified nutritionists will help you fuel your body for optimal health and performance.</li>
+            </ul>
+    
+            <h3>Why Choose Us?</h3>
+            <ul>
+                <li><strong>Experienced Trainers:</strong> Our trainers are certified professionals with years of experience in fitness and wellness.</li>
+                <li><strong>State-of-the-art Equipment:</strong> We use the latest fitness equipment to ensure you get the most effective workout possible.</li>
+                <li><strong>Community Focused:</strong> We believe in creating a supportive environment where everyone feels welcome and motivated.</li>
+                <li><strong>Flexible Membership Options:</strong> Choose from a variety of membership plans that suit your schedule and fitness goals.</li>
+            </ul>
+    
+            <h3>Testimonials</h3>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <p>"Joining <strong>Gubami Gym</strong> was the best decision I’ve made for my health! The trainers are amazing, and the community is so supportive. I’ve never felt more motivated!"</p>
+                    <p>- <em>Jane Doe</em></p>
+                </div>
+                <div class="testimonial">
+                    <p>"I’ve been a member for two years, and I’m in the best shape of my life. The variety of classes and personal training options have helped me reach goals I never thought possible."</p>
+                    <p>- <em>John Smith</em></p>
+                </div>
+            </div>
+    
+            <h3>Join Us Today</h3>
+            <p>If you're ready to take the first step towards a healthier, stronger you, we invite you to join <strong>Gubami gym</strong> today. Experience the difference of working out in a community-driven gym where your goals are our priority!</p>
+        </div>
+    </section>
+    
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Our gym</h4>
+                    <ul>
+                        <li><a href="rules.html">Gym rules</a></li>
+                        <li><a href="#">Gym safety</a></li>
+                        <li><a href="#">Fitness classes</a></li>
+                        <li><a href="#">Personal trainers</a></li>
+                        <li><a href="#">Gym opening times</a></li>
+                        <li><a href="#">Gym tour</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Help centre</a></li>
+                        <li><a href="#">Payment Options</a></li>
+                        <li><a href="#">Cancel membership</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Terms and Conditions of use</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                        <li><a href="#">Membership agreement</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+        <div class="footer-copy">
+            <p>Copyright &copy;2025 Designed by Artem Korol</p>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
